@@ -2,7 +2,7 @@
 var Backbone = require('backbone');
 
 // Import our view
-var AppView = require('./app.view');
+var AppView = require('./views/app.view');
 
 // Execute after the DOM has loaded
 Backbone.$(function () {

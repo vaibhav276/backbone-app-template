@@ -14,6 +14,10 @@ module.exports = {
             {
                 test: /\.(js)$/,
                 exclude: /node_modules/
+            },
+            {
+                test: /\.tmpl$/, // our own extension to recognize templates
+                loader: 'raw-loader' // because we'll use our own template engine
             }
         ]
     },
